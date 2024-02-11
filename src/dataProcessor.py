@@ -11,7 +11,15 @@ for filename in os.listdir(directory):
             data = json.load(file)
             combined_cards.extend(data)
 
+with open("data/processed/set_dictionary.json", "r") as file:
+    sets = json.load(file)
 
-with open('data/processed/combined_cards.json', 'w') as outfile:
+for card in combined_cards:
+    card_id = card["id"]
+    set = str(card_id).split("-")[0]
+    card["set"] = sets[set]
+
+
+with open('data/processed/cards.json', 'w') as outfile:
     json.dump(combined_cards, outfile, indent=4)
 

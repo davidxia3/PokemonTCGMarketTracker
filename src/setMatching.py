@@ -1,6 +1,6 @@
 import json
 
-with open ("data/processed/combined_cards.json", "r") as file:
+with open ("data/processed/cards.json", "r") as file:
     data = json.load(file)
 
 sets=[]
@@ -107,9 +107,9 @@ set_matching["swsh2"] = "SWSH02: Rebel Clash"
 set_matching["swsh3"] = "SWSH03: Darkness Ablaze"
 set_matching["swsh4"] = "SWSH04: Vivid Voltage"
 set_matching["swsh5"] = "SWSH05: Battle Styles"
-set_matching["swsh6"] = "SWSH06: Chiilling Reign"
+set_matching["swsh6"] = "SWSH06: Chilling Reign"
 set_matching["swsh7"] = "SWSH07: Evolving Skies"
-set_matching["swsh8"] = "SWSH08: Fusinon Strike"
+set_matching["swsh8"] = "SWSH08: Fusion Strike"
 set_matching["swsh9"] = "SWSH09: Brilliant Stars"
 set_matching["swsh9tg"] = "SWSH09: Brilliant Stars Trainer Gallery"
 set_matching["swsh10"] = "SWSH10: Astral Radiance"
