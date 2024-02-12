@@ -14,9 +14,9 @@ options.headless = False
 with open("data/processed/cards.json") as file:
     cards = json.load(file)
 
+unfound = []
 
-
-for i in range(len(cards)):
+for i in range(50):
     card=cards[i]
     try:
         driver = webdriver.Chrome(options=options)
@@ -73,42 +73,43 @@ for i in range(len(cards)):
                 if button.text == "1Y":
                     button.click()
                     break
-            time.sleep(2)
+            time.sleep(1)
             
-            table = driver.find_element(By.XPATH, "//table[@role='region' and @aria-live='polite']")
-            header = table.find_element(By.TAG_NAME, "thead")
-            header_rows = header.find_elements(By.TAG_NAME, "th")
-            for i in range(1, len(header_rows)):
-                label = driver.execute_script("return arguments[0].textContent;", header_rows[i])
-                if label == "Normal":
-                    data["base"][0] = i
-                elif label == "Holofoil":
-                    data["holo"][0] = i
-                elif label == "Reverse Holofoil":
-                    data["reverse"][0] = i
-            
-            body = table.find_element(By.TAG_NAME, "tbody")
-            rows = body.find_elements(By.TAG_NAME, "tr")
-            for row in rows:
-                row_data = row.find_elements(By.TAG_NAME, "td")
-                if data["base"][0] != -1:
-                    (data["base"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["base"][0]]).lstrip("$")))
-                if data["holo"][0] != -1:
-                    (data["holo"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["holo"][0]]).lstrip("$")))
-                if data["reverse"][0] != -1:
-                    (data["reverse"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["reverse"][0]]).lstrip("$")))
-
+            try:
+                driver.find_element(By.CLASS_NAME, "error-data")
+                unfound.append(i)
+            except:
+                table = driver.find_element(By.XPATH, "//table[@role='region' and @aria-live='polite']")
+                header = table.find_element(By.TAG_NAME, "thead")
+                header_rows = header.find_elements(By.TAG_NAME, "th")
+                for i in range(1, len(header_rows)):
+                    label = driver.execute_script("return arguments[0].textContent;", header_rows[i])
+                    if label == "Normal":
+                        data["base"][0] = i
+                    elif label == "Holofoil":
+                        data["holo"][0] = i
+                    elif label == "Reverse Holofoil":
+                        data["reverse"][0] = i
+                
+                body = table.find_element(By.TAG_NAME, "tbody")
+                rows = body.find_elements(By.TAG_NAME, "tr")
+                for row in rows:
+                    row_data = row.find_elements(By.TAG_NAME, "td")
+                    if data["base"][0] != -1:
+                        (data["base"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["base"][0]]).lstrip("$")))
+                    if data["holo"][0] != -1:
+                        (data["holo"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["holo"][0]]).lstrip("$")))
+                    if data["reverse"][0] != -1:
+                        (data["reverse"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["reverse"][0]]).lstrip("$")))
 
         card["tcg"] = tcg_id
         card["base"] = data["base"][1]
         card["holo"] = data["holo"][1]
         card["reverse"] = data["reverse"][1]
-    except Exception as e:
+    except:
         print(i)
-        print(card)
-        print(e)
         break
-
+print(unfound)
 
 with open("data/processed/cardsWithPrices.json","w") as outfile:
     json.dump(cards, outfile, indent=4)

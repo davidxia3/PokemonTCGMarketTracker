@@ -22,4 +22,3 @@ for card in combined_cards:
 
 with open('data/processed/cards.json', 'w') as outfile:
     json.dump(combined_cards, outfile, indent=4)
-
