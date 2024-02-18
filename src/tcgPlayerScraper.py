@@ -16,7 +16,7 @@ with open("data/processed/cards.json") as file:
 
 unfound = []
 
-for i in range(50):
+for i in range(20):
     card=cards[i]
     try:
         driver = webdriver.Chrome(options=options)
@@ -73,7 +73,7 @@ for i in range(50):
                 if button.text == "1Y":
                     button.click()
                     break
-            time.sleep(1)
+            time.sleep(0.5)
             
             try:
                 driver.find_element(By.CLASS_NAME, "error-data")
@@ -93,22 +93,24 @@ for i in range(50):
                 
                 body = table.find_element(By.TAG_NAME, "tbody")
                 rows = body.find_elements(By.TAG_NAME, "tr")
+                dates = []
                 for row in rows:
                     row_data = row.find_elements(By.TAG_NAME, "td")
+                    dates.append(driver.execute_script("return arguments[0].textContent;", row_data[0]).lstrip("$"))
                     if data["base"][0] != -1:
                         (data["base"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["base"][0]]).lstrip("$")))
                     if data["holo"][0] != -1:
                         (data["holo"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["holo"][0]]).lstrip("$")))
                     if data["reverse"][0] != -1:
                         (data["reverse"][1]).append(float(driver.execute_script("return arguments[0].textContent;", row_data[data["reverse"][0]]).lstrip("$")))
-
         card["tcg"] = tcg_id
+        card["dates"] = dates
         card["base"] = data["base"][1]
         card["holo"] = data["holo"][1]
         card["reverse"] = data["reverse"][1]
     except:
-        print(i)
         break
+
 print(unfound)
 
 with open("data/processed/cardsWithPrices.json","w") as outfile:
