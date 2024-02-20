@@ -33,8 +33,8 @@ with open("data/processed/set_dictionary.json") as file:
     set_dictionary = json.load(file)
 
 output_dictionary = {}
-for set_long in set_dictionary.values():
-    output_dictionary[set_long] = []
+for set_short in set_dictionary.keys():
+    output_dictionary[set_short] = []
 
 
 for i in range(len(cards)):
@@ -167,7 +167,7 @@ for i in range(len(cards)):
         delay =random.uniform(1,3)
         time.sleep(delay)
         
-        (output_dictionary[card["set"]]).append(card)
+        (output_dictionary[card["id"].split("-")[0]]).append(card)
         master.append(card)
 
     except:
@@ -180,6 +180,6 @@ for i in range(len(cards)):
 with open("data/processed/cardsWithPrices.json","w") as outfile:
     json.dump(master, outfile, indent=4)
 
-for set_long, set_data in output_dictionary.items():
-    with open("data/processed/cardsWithPricesBySet/" + set_long + ".json", "w") as outfile:
+for set_short, set_data in output_dictionary.items():
+    with open("data/processed/cardsWithPricesBySet/" + set_short + ".json", "w") as outfile:
         json.dump(set_data, outfile, indent=4)
