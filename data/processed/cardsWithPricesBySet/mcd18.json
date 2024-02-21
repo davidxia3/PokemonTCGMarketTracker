@@ -1,1 +1,1408 @@
-[]
+[
+    {
+        "id": "mcd18-1",
+        "name": "Growlithe",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "80",
+        "types": [
+            "Fire"
+        ],
+        "evolvesTo": [
+            "Arcanine"
+        ],
+        "attacks": [
+            {
+                "name": "Take Down",
+                "cost": [
+                    "Fire",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "60",
+                "text": "This Pok\u00e9mon does 20 damage to itself."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "1",
+        "artist": "MAHOU",
+        "flavorText": "It's both clever and loyal, but if a stranger tries to invade its territory, it barks threateningly.",
+        "nationalPokedexNumbers": [
+            58
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/1.png",
+            "large": "https://images.pokemontcg.io/mcd18/1_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180450",
+        "base": [],
+        "holo": [
+            7.23,
+            6.88,
+            6.88,
+            6.88,
+            6.73,
+            6.73,
+            6.97,
+            6.85,
+            6.85,
+            6.83,
+            6.85,
+            6.85,
+            6.48,
+            6.24,
+            6.28,
+            6.0,
+            5.8,
+            5.8,
+            5.8,
+            5.8,
+            5.46,
+            5.46,
+            5.46,
+            5.46,
+            5.46,
+            5.34,
+            5.41,
+            5.41,
+            5.41,
+            5.41,
+            5.29,
+            5.29,
+            5.41,
+            5.29,
+            5.29,
+            5.29,
+            5.29,
+            5.29,
+            5.42,
+            5.47,
+            5.47,
+            5.53,
+            5.59,
+            5.59,
+            5.54,
+            5.49,
+            5.49,
+            5.42,
+            5.42,
+            5.41,
+            5.37,
+            5.37
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-2",
+        "name": "Psyduck",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Golduck"
+        ],
+        "attacks": [
+            {
+                "name": "Confusion Wave",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Both Active Pok\u00e9mon are now Confused."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "2",
+        "artist": "Shibuzoh.",
+        "flavorText": "As a result of headaches so fierce they cause it to cry, it sometimes uses psychokinesis without meaning to.",
+        "nationalPokedexNumbers": [
+            54
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/2.png",
+            "large": "https://images.pokemontcg.io/mcd18/2_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180451",
+        "base": [],
+        "holo": [
+            13.81,
+            12.97,
+            13.01,
+            13.01,
+            13.01,
+            13.01,
+            12.98,
+            12.98,
+            12.98,
+            12.73,
+            13.33,
+            13.33,
+            13.33,
+            13.2,
+            13.2,
+            13.09,
+            13.63,
+            14.02,
+            14.02,
+            14.28,
+            14.59,
+            15.11,
+            15.11,
+            15.68,
+            15.76,
+            15.97,
+            15.97,
+            17.37,
+            17.37,
+            17.53,
+            17.53,
+            18.0,
+            17.82,
+            18.3,
+            18.3,
+            18.3,
+            17.99,
+            17.72,
+            17.94,
+            18.39,
+            18.39,
+            18.39,
+            18.43,
+            18.54,
+            18.54,
+            18.74,
+            18.74,
+            17.7,
+            17.72,
+            17.85,
+            17.85,
+            17.85
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-3",
+        "name": "Horsea",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Seadra"
+        ],
+        "attacks": [
+            {
+                "name": "Water Arrow",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "This attack does 10 damage to 1 of your opponent's Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)"
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "3",
+        "artist": "Saya Tsuruta",
+        "flavorText": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+        "nationalPokedexNumbers": [
+            116
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/3.png",
+            "large": "https://images.pokemontcg.io/mcd18/3_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180449",
+        "base": [],
+        "holo": [
+            8.77,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.16,
+            8.21,
+            8.21,
+            9.32,
+            9.32,
+            9.66,
+            9.34,
+            9.02,
+            9.02,
+            9.02,
+            9.02,
+            9.02,
+            7.54,
+            7.54,
+            7.54,
+            7.02,
+            7.02,
+            6.76,
+            6.76,
+            6.8,
+            6.8,
+            6.8,
+            6.8,
+            6.8,
+            6.8,
+            6.85,
+            6.85,
+            6.85,
+            6.85,
+            6.85,
+            6.85,
+            6.85,
+            6.49,
+            6.49,
+            6.5,
+            6.5,
+            6.5,
+            6.55,
+            6.55
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-4",
+        "name": "Pikachu",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "name": "Pika Draw",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Draw a card."
+            },
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20+",
+                "text": "Flip a coin. If heads, this attack does 20 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "4",
+        "artist": "Shibuzoh.",
+        "flavorText": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/4.png",
+            "large": "https://images.pokemontcg.io/mcd18/4_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180452",
+        "base": [],
+        "holo": [
+            16.99,
+            16.9,
+            16.8,
+            16.8,
+            16.8,
+            16.66,
+            16.51,
+            16.51,
+            16.33,
+            16.38,
+            17.39,
+            17.39,
+            17.39,
+            17.8,
+            17.97,
+            17.93,
+            17.75,
+            17.75,
+            17.75,
+            17.75,
+            17.75,
+            17.75,
+            18.65,
+            18.28,
+            18.28,
+            18.26,
+            18.26,
+            18.26,
+            18.26,
+            18.26,
+            18.25,
+            18.25,
+            18.01,
+            18.01,
+            18.23,
+            17.74,
+            17.26,
+            17.05,
+            17.08,
+            16.74,
+            16.39,
+            16.83,
+            17.01,
+            17.01,
+            17.01,
+            17.01,
+            17.01,
+            16.92,
+            16.92,
+            16.92,
+            16.92,
+            16.92
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-5",
+        "name": "Slowpoke",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesTo": [
+            "Slowbro",
+            "Slowking"
+        ],
+        "attacks": [
+            {
+                "name": "Headbutt",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Whimsy Tackle",
+                "cost": [
+                    "Psychic",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "60",
+                "text": "Flip a coin. If tails, this attack does nothing."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 3,
+        "number": "5",
+        "artist": "Mina Nakai",
+        "flavorText": "Its long tail often breaks off. It doesn't really feel any pain, though, and the tail grows back, so Slowpoke isn't particularly bothered.",
+        "nationalPokedexNumbers": [
+            79
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/5.png",
+            "large": "https://images.pokemontcg.io/mcd18/5_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180453",
+        "base": [],
+        "holo": [
+            13.11,
+            14.2,
+            14.2,
+            14.2,
+            15.2,
+            15.31,
+            15.58,
+            15.31,
+            15.31,
+            15.31,
+            15.31,
+            15.31,
+            15.31,
+            15.98,
+            15.98,
+            15.7,
+            16.0,
+            16.0,
+            16.0,
+            16.0,
+            16.12,
+            16.12,
+            16.12,
+            16.25,
+            16.25,
+            16.25,
+            16.25,
+            16.31,
+            16.31,
+            14.53,
+            14.49,
+            14.49,
+            14.05,
+            14.05,
+            14.05,
+            14.05,
+            14.05,
+            14.05,
+            12.67,
+            12.67,
+            12.46,
+            12.24,
+            10.32,
+            10.32,
+            10.32,
+            10.32,
+            10.32,
+            10.47,
+            10.47,
+            10.47,
+            10.45,
+            10.45
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-6",
+        "name": "Machop",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Machoke"
+        ],
+        "attacks": [
+            {
+                "name": "Dynamic Chop",
+                "cost": [
+                    "Fighting",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "50",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "6",
+        "artist": "Masakazu Fukuda",
+        "flavorText": "It loves working out. As it gazes at its muscles, which continue to swell day by day, it becomes more and more dedicated to its training.",
+        "nationalPokedexNumbers": [
+            66
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/6.png",
+            "large": "https://images.pokemontcg.io/mcd18/6_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180454",
+        "base": [],
+        "holo": [
+            4.64,
+            4.79,
+            4.76,
+            4.64,
+            4.59,
+            4.67,
+            4.67,
+            4.57,
+            4.57,
+            4.57,
+            4.57,
+            4.5,
+            4.5,
+            4.42,
+            4.42,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.41,
+            4.76,
+            4.76,
+            4.5,
+            4.5,
+            4.75,
+            4.71,
+            4.71,
+            4.81,
+            4.96,
+            4.96,
+            4.96,
+            4.96,
+            5.18,
+            5.05,
+            5.05,
+            5.05,
+            4.85,
+            4.85,
+            4.85,
+            4.85,
+            4.85,
+            4.85,
+            4.75,
+            4.75,
+            4.75,
+            4.75,
+            4.75
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-7",
+        "name": "Cubone",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Marowak"
+        ],
+        "attacks": [
+            {
+                "name": "Leer",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+            },
+            {
+                "name": "Headbutt",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "7",
+        "artist": "sui",
+        "flavorText": "When it thinks of its deceased mother, it weeps loudly. Mandibuzz that hear its cries will attack it from the air.",
+        "nationalPokedexNumbers": [
+            104
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/7.png",
+            "large": "https://images.pokemontcg.io/mcd18/7_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180455",
+        "base": [],
+        "holo": [
+            12.86,
+            12.74,
+            12.09,
+            12.09,
+            11.3,
+            10.96,
+            10.67,
+            10.65,
+            10.34,
+            10.22,
+            9.89,
+            9.89,
+            9.89,
+            9.89,
+            9.89,
+            9.7,
+            9.7,
+            9.98,
+            9.98,
+            9.98,
+            9.98,
+            9.92,
+            9.92,
+            9.92,
+            9.92,
+            9.66,
+            9.69,
+            9.69,
+            9.69,
+            9.55,
+            9.57,
+            9.57,
+            9.59,
+            9.38,
+            9.51,
+            9.55,
+            9.55,
+            9.55,
+            9.43,
+            9.43,
+            9.44,
+            9.72,
+            9.72,
+            9.72,
+            9.72,
+            9.72,
+            9.72,
+            9.74,
+            9.74,
+            9.74,
+            9.77,
+            9.77
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-8",
+        "name": "Magnemite",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Metal"
+        ],
+        "evolvesTo": [
+            "Magneton"
+        ],
+        "attacks": [
+            {
+                "name": "Searching Magnet",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for up to 3 Metal Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+            },
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Metal"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Psychic",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "8",
+        "artist": "MAHOU",
+        "flavorText": "It sends out electromagnetic waves, which let it float through the air. Touching it while it's eating electricity will give you a full-body shock.",
+        "nationalPokedexNumbers": [
+            81
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/8.png",
+            "large": "https://images.pokemontcg.io/mcd18/8_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180456",
+        "base": [],
+        "holo": [
+            2.59,
+            2.74,
+            2.93,
+            2.93,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            2.89,
+            3.01,
+            3.01,
+            2.93,
+            2.93,
+            2.86,
+            2.87,
+            2.87,
+            2.85,
+            2.82,
+            2.82,
+            2.82,
+            2.82,
+            2.82,
+            2.95,
+            2.95,
+            2.95,
+            2.95,
+            2.95,
+            2.95,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97,
+            2.97
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-9",
+        "name": "Dratini",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Dragon"
+        ],
+        "evolvesTo": [
+            "Dragonair"
+        ],
+        "attacks": [
+            {
+                "name": "Signs of Evolution",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for a Dratini, a Dragonair, and a Dragonite, reveal them, and put them into your hand. Then, shuffle your deck."
+            },
+            {
+                "name": "Tail Smack",
+                "cost": [
+                    "Lightning"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fairy",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "9",
+        "artist": "Naoyo Kimura",
+        "flavorText": "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
+        "nationalPokedexNumbers": [
+            147
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/9.png",
+            "large": "https://images.pokemontcg.io/mcd18/9_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180457",
+        "base": [],
+        "holo": [
+            11.16,
+            11.16,
+            11.16,
+            11.16,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.95,
+            8.95,
+            8.95,
+            8.95,
+            8.95,
+            8.64,
+            8.53,
+            7.94,
+            7.94,
+            7.94,
+            7.94,
+            7.94,
+            8.32,
+            8.95,
+            8.95,
+            8.69,
+            8.69,
+            9.21,
+            8.93,
+            8.93,
+            8.93,
+            8.93,
+            8.93,
+            8.93,
+            8.93,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.96,
+            8.68,
+            8.68,
+            8.68,
+            8.64,
+            8.54,
+            8.54,
+            8.54,
+            8.61,
+            8.61
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-10",
+        "name": "Chansey",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "110",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Blissey"
+        ],
+        "attacks": [
+            {
+                "name": "Bind Wound",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "",
+                "text": "Flip a coin. If heads, heal 30 damage from 1 of your Pok\u00e9mon."
+            },
+            {
+                "name": "Hammer In",
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "80",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "10",
+        "artist": "Megumi Mizutani",
+        "flavorText": "The eggs laid by Chansey are rich in nutrients and a favorite food of many Pok\u00e9mon.",
+        "nationalPokedexNumbers": [
+            113
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/10.png",
+            "large": "https://images.pokemontcg.io/mcd18/10_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180458",
+        "base": [],
+        "holo": [
+            2.79,
+            2.84,
+            2.78,
+            2.78,
+            2.78,
+            2.78,
+            2.78,
+            2.79,
+            2.79,
+            2.79,
+            2.79,
+            2.86,
+            2.86,
+            2.86,
+            2.86,
+            2.84,
+            2.84,
+            2.83,
+            2.83,
+            2.83,
+            2.76,
+            2.76,
+            2.76,
+            2.78,
+            2.78,
+            2.76,
+            2.76,
+            2.61,
+            2.57,
+            2.58,
+            2.47,
+            2.47,
+            2.39,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.29,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.22,
+            2.22,
+            2.22,
+            2.2,
+            2.2
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-11",
+        "name": "Eevee",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Sylveon",
+            "Espeon",
+            "Umbreon",
+            "Leafeon",
+            "Glaceon"
+        ],
+        "abilities": [
+            {
+                "name": "Energy Evolution",
+                "text": "When you attach a basic Energy card from your hand to this Pok\u00e9mon during your turn, you may search your deck for a card that evolves from this Pok\u00e9mon that is the same type as that Energy card and put it onto this Pok\u00e9mon to evolve it. Then, shuffle your deck.",
+                "type": "Ability"
+            }
+        ],
+        "attacks": [
+            {
+                "name": "Quick Draw",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, draw a card."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "11",
+        "artist": "Shibuzoh.",
+        "flavorText": "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
+        "nationalPokedexNumbers": [
+            133
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/11.png",
+            "large": "https://images.pokemontcg.io/mcd18/11_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180459",
+        "base": [],
+        "holo": [
+            13.29,
+            13.46,
+            13.83,
+            13.83,
+            14.3,
+            14.3,
+            14.3,
+            13.76,
+            13.76,
+            13.47,
+            13.25,
+            13.04,
+            13.04,
+            12.04,
+            12.04,
+            12.04,
+            11.97,
+            11.97,
+            11.97,
+            11.52,
+            11.31,
+            11.31,
+            11.31,
+            11.31,
+            11.2,
+            11.2,
+            11.2,
+            11.2,
+            11.2,
+            11.2,
+            11.2,
+            11.2,
+            11.33,
+            11.33,
+            11.33,
+            11.16,
+            11.11,
+            10.77,
+            10.36,
+            10.36,
+            10.06,
+            9.94,
+            9.83,
+            9.57,
+            9.37,
+            9.14,
+            9.14,
+            9.14,
+            8.87,
+            8.87,
+            8.47,
+            8.47
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd18-12",
+        "name": "Porygon",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Porygon2"
+        ],
+        "attacks": [
+            {
+                "name": "Code Check",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Look at 1 of your opponent's face-down Prize cards."
+            },
+            {
+                "name": "Beam",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "12",
+        "artist": "Shin Nagasawa",
+        "flavorText": "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
+        "nationalPokedexNumbers": [
+            137
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd18/12.png",
+            "large": "https://images.pokemontcg.io/mcd18/12_hires.png"
+        },
+        "set": "McDonald's Promos 2018",
+        "tcg": "180460",
+        "base": [],
+        "holo": [
+            3.08,
+            3.06,
+            3.06,
+            3.06,
+            3.05,
+            3.04,
+            3.13,
+            3.15,
+            3.15,
+            3.15,
+            3.15,
+            3.15,
+            3.15,
+            3.17,
+            3.26,
+            3.26,
+            3.26,
+            3.28,
+            3.28,
+            3.28,
+            3.26,
+            3.26,
+            3.26,
+            3.26,
+            3.26,
+            3.27,
+            3.27,
+            3.27,
+            3.27,
+            3.27,
+            3.69,
+            3.82,
+            4.32,
+            4.32,
+            4.32,
+            4.32,
+            4.32,
+            4.32,
+            4.13,
+            4.0,
+            4.0,
+            4.09,
+            4.21,
+            4.21,
+            4.21,
+            4.21,
+            4.21,
+            4.25,
+            4.25,
+            4.25,
+            4.28,
+            4.28
+        ],
+        "reverse": []
+    }
+]

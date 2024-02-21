@@ -1,1 +1,1384 @@
-[]
+[
+    {
+        "id": "mcd11-1",
+        "name": "Snivy",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Grass"
+        ],
+        "evolvesTo": [
+            "Servine"
+        ],
+        "attacks": [
+            {
+                "name": "Slam",
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20\u00d7",
+                "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Water",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "1",
+        "artist": "Ken Sugimori",
+        "flavorText": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+        "nationalPokedexNumbers": [
+            495
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/1.png",
+            "large": "https://images.pokemontcg.io/mcd11/1_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "89378",
+        "base": [],
+        "holo": [
+            2.68,
+            2.68,
+            2.66,
+            2.66,
+            2.57,
+            2.57,
+            2.57,
+            2.45,
+            2.44,
+            2.42,
+            2.42,
+            2.41,
+            2.51,
+            2.53,
+            2.53,
+            2.53,
+            2.55,
+            2.55,
+            2.54,
+            2.5,
+            2.5,
+            2.63,
+            2.62,
+            2.6,
+            2.6,
+            2.61,
+            2.59,
+            2.57,
+            2.56,
+            2.64,
+            2.79,
+            2.76,
+            2.76,
+            2.75,
+            2.76,
+            2.76,
+            2.78,
+            2.78,
+            2.74,
+            2.68,
+            2.68,
+            2.67,
+            2.65,
+            2.62,
+            2.62,
+            2.59,
+            2.59,
+            2.53,
+            2.48,
+            2.49,
+            2.49,
+            2.49
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-2",
+        "name": "Maractus",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "80",
+        "types": [
+            "Grass"
+        ],
+        "attacks": [
+            {
+                "name": "Mega Drain",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": "Heal 20 damage from this Pok\u00e9mon."
+            },
+            {
+                "name": "Pin Missile",
+                "cost": [
+                    "Grass",
+                    "Grass",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "20\u00d7",
+                "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Water",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "2",
+        "artist": "Kagemaru Himeno",
+        "flavorText": "It uses an up-tempo song and dance to drive away the bird Pok\u00e9mon that prey on its flower seeds.",
+        "nationalPokedexNumbers": [
+            556
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/2.png",
+            "large": "https://images.pokemontcg.io/mcd11/2_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "87189",
+        "base": [],
+        "holo": [
+            2.23,
+            2.24,
+            2.22,
+            2.22,
+            2.21,
+            2.24,
+            2.24,
+            2.26,
+            2.26,
+            2.22,
+            2.22,
+            2.22,
+            2.24,
+            2.25,
+            2.25,
+            2.25,
+            2.2,
+            2.2,
+            2.21,
+            2.16,
+            2.14,
+            2.19,
+            2.19,
+            2.19,
+            2.18,
+            2.17,
+            2.16,
+            2.16,
+            2.16,
+            2.16,
+            2.17,
+            2.17,
+            2.2,
+            2.2,
+            2.2,
+            2.18,
+            2.18,
+            2.18,
+            2.17,
+            2.15,
+            2.15,
+            2.18,
+            2.18,
+            2.18,
+            2.25,
+            2.23,
+            2.24,
+            2.21,
+            2.53,
+            2.56,
+            2.58,
+            2.58
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-3",
+        "name": "Tepig",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Fire"
+        ],
+        "evolvesTo": [
+            "Pignite"
+        ],
+        "attacks": [
+            {
+                "name": "Ember",
+                "cost": [
+                    "Fire",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": "Discard an Energy attached to this Pok\u00e9mon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "3",
+        "artist": "Ken Sugimori",
+        "flavorText": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+        "nationalPokedexNumbers": [
+            498
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/3.png",
+            "large": "https://images.pokemontcg.io/mcd11/3_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "89882",
+        "base": [],
+        "holo": [
+            3.32,
+            3.3,
+            3.3,
+            3.3,
+            3.26,
+            3.34,
+            3.34,
+            3.2,
+            3.22,
+            3.22,
+            3.22,
+            3.22,
+            3.2,
+            3.2,
+            3.2,
+            3.2,
+            3.18,
+            3.18,
+            3.23,
+            3.18,
+            3.18,
+            2.95,
+            2.95,
+            2.95,
+            2.95,
+            2.8,
+            2.78,
+            2.78,
+            2.78,
+            2.73,
+            2.66,
+            2.56,
+            2.56,
+            2.56,
+            2.51,
+            2.51,
+            2.45,
+            2.45,
+            2.46,
+            2.5,
+            2.47,
+            2.44,
+            2.44,
+            2.45,
+            2.44,
+            2.41,
+            2.41,
+            2.39,
+            2.41,
+            2.41,
+            2.41,
+            2.41
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-4",
+        "name": "Oshawott",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Dewott"
+        ],
+        "attacks": [
+            {
+                "name": "Water Pulse",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": "Flip a coin. If heads, the Defending Pok\u00e9mon is now Asleep."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "4",
+        "artist": "Ken Sugimori",
+        "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+        "nationalPokedexNumbers": [
+            501
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/4.png",
+            "large": "https://images.pokemontcg.io/mcd11/4_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "87893",
+        "base": [],
+        "holo": [
+            4.04,
+            3.93,
+            3.93,
+            3.91,
+            3.91,
+            3.81,
+            3.81,
+            3.81,
+            3.79,
+            3.76,
+            3.76,
+            3.76,
+            3.76,
+            3.76,
+            3.75,
+            3.73,
+            3.73,
+            3.75,
+            3.73,
+            3.7,
+            3.7,
+            3.64,
+            3.65,
+            3.69,
+            3.67,
+            3.67,
+            3.67,
+            3.67,
+            3.66,
+            3.62,
+            3.6,
+            3.6,
+            3.6,
+            3.63,
+            3.62,
+            3.63,
+            3.63,
+            3.62,
+            3.62,
+            3.62,
+            3.62,
+            3.62,
+            3.62,
+            3.58,
+            3.58,
+            3.58,
+            3.52,
+            3.42,
+            3.42,
+            3.4,
+            3.4,
+            3.4
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-5",
+        "name": "Alomomola",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "100",
+        "types": [
+            "Water"
+        ],
+        "attacks": [
+            {
+                "name": "Pound",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            },
+            {
+                "name": "Wave Splash",
+                "cost": [
+                    "Water",
+                    "Water",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 4,
+                "damage": "60",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "5",
+        "artist": "sui",
+        "flavorText": "Floating in the open sea is how they live. When they find a wounded Pok\u00e9mon, they embrace it and bring it to shore.",
+        "nationalPokedexNumbers": [
+            594
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/5.png",
+            "large": "https://images.pokemontcg.io/mcd11/5_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "83507",
+        "base": [],
+        "holo": [
+            2.0,
+            1.97,
+            1.98,
+            2.0,
+            1.98,
+            1.98,
+            1.98,
+            1.97,
+            1.94,
+            1.93,
+            1.93,
+            1.93,
+            1.93,
+            1.92,
+            1.93,
+            1.93,
+            1.95,
+            1.93,
+            1.92,
+            1.92,
+            1.92,
+            1.92,
+            1.92,
+            1.93,
+            1.93,
+            1.92,
+            1.93,
+            1.92,
+            1.93,
+            1.92,
+            1.93,
+            1.9,
+            1.9,
+            1.87,
+            1.87,
+            1.81,
+            1.8,
+            1.79,
+            1.79,
+            1.82,
+            1.8,
+            1.82,
+            1.82,
+            1.82,
+            1.82,
+            1.86,
+            1.86,
+            1.85,
+            1.85,
+            1.86,
+            1.86,
+            1.86
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-6",
+        "name": "Blitzle",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Zebstrika"
+        ],
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 20 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "6",
+        "artist": "Ken Sugimori",
+        "flavorText": "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+        "nationalPokedexNumbers": [
+            522
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/6.png",
+            "large": "https://images.pokemontcg.io/mcd11/6_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "83929",
+        "base": [],
+        "holo": [
+            2.89,
+            2.77,
+            2.77,
+            2.75,
+            2.74,
+            2.74,
+            2.72,
+            2.71,
+            2.71,
+            2.69,
+            2.69,
+            2.69,
+            2.69,
+            2.69,
+            2.69,
+            2.69,
+            2.69,
+            2.68,
+            2.67,
+            2.6,
+            2.68,
+            2.68,
+            2.55,
+            2.55,
+            2.57,
+            2.57,
+            2.57,
+            2.6,
+            2.6,
+            2.6,
+            2.6,
+            2.6,
+            2.62,
+            2.63,
+            2.62,
+            2.62,
+            2.62,
+            2.61,
+            2.61,
+            2.61,
+            2.61,
+            2.6,
+            2.6,
+            2.6,
+            2.55,
+            2.6,
+            2.6,
+            2.59,
+            2.59,
+            2.59,
+            2.59,
+            2.59
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-7",
+        "name": "Munna",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesTo": [
+            "Musharna"
+        ],
+        "attacks": [
+            {
+                "name": "Yawn",
+                "cost": [
+                    "Psychic"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "The Defending Pok\u00e9mon is now Asleep."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "7",
+        "artist": "Ken Sugimori",
+        "flavorText": "It eats the dreams of people and Pok\u00e9mon. When it eats a pleasant dream, it expels pink-colored mist.",
+        "nationalPokedexNumbers": [
+            517
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/7.png",
+            "large": "https://images.pokemontcg.io/mcd11/7_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "87642",
+        "base": [],
+        "holo": [
+            2.24,
+            2.12,
+            2.14,
+            2.14,
+            2.02,
+            2.01,
+            2.01,
+            1.83,
+            1.89,
+            1.85,
+            2.11,
+            2.1,
+            2.1,
+            2.15,
+            2.15,
+            2.11,
+            2.1,
+            2.11,
+            2.11,
+            2.18,
+            2.19,
+            2.19,
+            2.19,
+            1.94,
+            1.94,
+            2.19,
+            2.19,
+            2.3,
+            2.3,
+            2.28,
+            2.42,
+            2.42,
+            2.45,
+            2.42,
+            2.45,
+            2.33,
+            2.3,
+            2.33,
+            2.33,
+            2.44,
+            2.44,
+            2.5,
+            2.57,
+            2.57,
+            2.57,
+            2.62,
+            2.6,
+            2.6,
+            2.69,
+            2.73,
+            2.79,
+            2.7
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-8",
+        "name": "Sandile",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Krokorok"
+        ],
+        "attacks": [
+            {
+                "name": "Sand Tomb",
+                "cost": [
+                    "Fighting",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 3,
+                "damage": "30",
+                "text": "The Defending Pok\u00e9mon can't retreat during your opponent's next turn."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "8",
+        "artist": "Ken Sugimori",
+        "flavorText": "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+        "nationalPokedexNumbers": [
+            551
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/8.png",
+            "large": "https://images.pokemontcg.io/mcd11/8_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "88913",
+        "base": [],
+        "holo": [
+            2.04,
+            1.94,
+            1.94,
+            1.94,
+            1.91,
+            1.94,
+            1.98,
+            1.65,
+            1.65,
+            1.67,
+            1.7,
+            1.7,
+            1.7,
+            1.6,
+            1.6,
+            1.6,
+            1.6,
+            1.6,
+            1.59,
+            1.55,
+            1.5,
+            1.59,
+            1.6,
+            1.63,
+            1.63,
+            1.66,
+            1.63,
+            1.69,
+            1.71,
+            1.74,
+            1.86,
+            1.86,
+            1.85,
+            1.85,
+            1.87,
+            1.98,
+            1.95,
+            1.95,
+            1.92,
+            2.02,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.03,
+            2.04,
+            2.02,
+            2.06,
+            1.97,
+            1.96,
+            1.96,
+            1.96
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-9",
+        "name": "Zorua",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Darkness"
+        ],
+        "evolvesTo": [
+            "Zoroark"
+        ],
+        "attacks": [
+            {
+                "name": "Scratch",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Fury Swipes",
+                "cost": [
+                    "Darkness",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "10\u00d7",
+                "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Psychic",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "9",
+        "artist": "Ken Sugimori",
+        "flavorText": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+        "nationalPokedexNumbers": [
+            570
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/9.png",
+            "large": "https://images.pokemontcg.io/mcd11/9_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "90758",
+        "base": [],
+        "holo": [
+            2.99,
+            3.0,
+            2.99,
+            2.89,
+            2.78,
+            2.66,
+            2.66,
+            2.63,
+            2.62,
+            2.62,
+            2.58,
+            2.59,
+            2.59,
+            2.61,
+            2.61,
+            2.62,
+            2.6,
+            2.6,
+            2.64,
+            2.63,
+            2.63,
+            2.52,
+            2.52,
+            2.49,
+            2.5,
+            2.55,
+            2.59,
+            2.66,
+            2.75,
+            2.86,
+            2.88,
+            2.92,
+            2.92,
+            2.95,
+            2.98,
+            2.98,
+            2.98,
+            2.98,
+            3.13,
+            3.22,
+            3.22,
+            3.18,
+            3.07,
+            3.11,
+            3.06,
+            3.11,
+            3.11,
+            3.17,
+            3.16,
+            3.16,
+            3.16,
+            3.16
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-10",
+        "name": "Klink",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Metal"
+        ],
+        "evolvesTo": [
+            "Klang"
+        ],
+        "attacks": [
+            {
+                "name": "Charge Beam",
+                "cost": [
+                    "Metal"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": "Flip a coin. If heads, attach an Energy card from your discard pile to this Pok\u00e9mon."
+            },
+            {
+                "name": "Irongrip",
+                "cost": [
+                    "Metal",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Psychic",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "10",
+        "artist": "Ken Sugimori",
+        "flavorText": "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+        "nationalPokedexNumbers": [
+            599
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/10.png",
+            "large": "https://images.pokemontcg.io/mcd11/10_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "86480",
+        "base": [],
+        "holo": [
+            1.62,
+            1.59,
+            1.59,
+            1.59,
+            1.56,
+            1.56,
+            1.56,
+            1.6,
+            1.59,
+            1.58,
+            1.56,
+            1.61,
+            1.65,
+            1.65,
+            1.65,
+            1.66,
+            1.66,
+            1.66,
+            1.68,
+            1.63,
+            1.63,
+            1.63,
+            1.6,
+            1.58,
+            1.58,
+            1.59,
+            1.59,
+            1.6,
+            1.6,
+            1.6,
+            1.61,
+            1.61,
+            1.61,
+            1.62,
+            1.72,
+            1.72,
+            1.73,
+            1.68,
+            1.67,
+            1.66,
+            1.65,
+            1.65,
+            1.65,
+            1.63,
+            1.63,
+            1.66,
+            1.66,
+            1.63,
+            1.64,
+            1.7,
+            1.7,
+            1.7
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-11",
+        "name": "Pidove",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "40",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Tranquill"
+        ],
+        "attacks": [
+            {
+                "name": "Growl",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 20 (before applying Weakness and Resistance)."
+            },
+            {
+                "name": "Gust",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Lightning",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Fighting",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "11",
+        "artist": "Ken Sugimori",
+        "flavorText": "These Pok\u00e9mon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+        "nationalPokedexNumbers": [
+            519
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/11.png",
+            "large": "https://images.pokemontcg.io/mcd11/11_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "88055",
+        "base": [],
+        "holo": [
+            2.07,
+            2.07,
+            2.07,
+            2.07,
+            2.11,
+            2.11,
+            2.11,
+            1.78,
+            1.77,
+            1.77,
+            1.79,
+            1.79,
+            1.79,
+            1.79,
+            1.79,
+            1.8,
+            1.8,
+            1.8,
+            1.79,
+            1.81,
+            1.79,
+            1.84,
+            1.82,
+            1.82,
+            1.82,
+            1.88,
+            1.88,
+            1.88,
+            1.88,
+            1.87,
+            1.88,
+            1.88,
+            1.84,
+            1.85,
+            1.86,
+            1.87,
+            1.86,
+            1.85,
+            1.84,
+            1.92,
+            1.92,
+            1.93,
+            1.93,
+            1.93,
+            1.93,
+            1.94,
+            1.94,
+            1.96,
+            1.94,
+            1.94,
+            1.94,
+            1.94
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd11-12",
+        "name": "Audino",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "80",
+        "types": [
+            "Colorless"
+        ],
+        "attacks": [
+            {
+                "name": "Double Slap",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30\u00d7",
+                "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "12",
+        "artist": "MAHOU",
+        "flavorText": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+        "nationalPokedexNumbers": [
+            531
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd11/12.png",
+            "large": "https://images.pokemontcg.io/mcd11/12_hires.png"
+        },
+        "set": "McDonald's Promos 2011",
+        "tcg": "83660",
+        "base": [],
+        "holo": [
+            2.27,
+            2.29,
+            2.14,
+            2.14,
+            2.14,
+            2.14,
+            2.14,
+            2.02,
+            2.02,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.98,
+            1.83,
+            1.81,
+            1.83,
+            1.81,
+            1.64,
+            1.64,
+            1.64,
+            1.64,
+            1.64,
+            1.65,
+            1.65,
+            1.62,
+            1.62,
+            1.61,
+            1.61,
+            1.61,
+            1.61,
+            1.58,
+            1.58,
+            1.58,
+            1.56,
+            1.57,
+            1.54,
+            1.54,
+            1.53,
+            1.53,
+            1.51,
+            1.51,
+            1.49,
+            1.53,
+            1.56,
+            1.56,
+            1.56
+        ],
+        "reverse": []
+    }
+]

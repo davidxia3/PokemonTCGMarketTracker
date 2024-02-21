@@ -1,1 +1,1382 @@
-[]
+[
+    {
+        "id": "mcd15-1",
+        "name": "Treecko",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Grass"
+        ],
+        "evolvesTo": [
+            "Grovyle"
+        ],
+        "attacks": [
+            {
+                "name": "Quick Attack",
+                "cost": [
+                    "Grass"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10+",
+                "text": "Flip a coin. If heads, this attack does 10 more damage."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "1",
+        "artist": "Akira Komayama",
+        "flavorText": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+        "nationalPokedexNumbers": [
+            252
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/1.png",
+            "large": "https://images.pokemontcg.io/mcd15/1_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110429",
+        "base": [],
+        "holo": [
+            3.63,
+            3.6,
+            3.6,
+            3.6,
+            3.6,
+            3.6,
+            3.59,
+            3.59,
+            3.67,
+            3.67,
+            3.67,
+            3.64,
+            3.64,
+            3.64,
+            3.64,
+            3.62,
+            3.62,
+            3.62,
+            3.6,
+            3.66,
+            3.66,
+            3.66,
+            3.66,
+            3.56,
+            3.43,
+            3.43,
+            3.45,
+            3.45,
+            3.49,
+            2.81,
+            2.6,
+            2.5,
+            2.62,
+            2.62,
+            2.62,
+            2.62,
+            2.61,
+            2.52,
+            2.93,
+            2.93,
+            2.87,
+            2.87,
+            2.87,
+            2.87,
+            2.81,
+            2.81,
+            2.81,
+            2.81,
+            2.81,
+            2.81,
+            2.81,
+            2.81
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-2",
+        "name": "Lotad",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Grass"
+        ],
+        "evolvesTo": [
+            "Lombre"
+        ],
+        "attacks": [
+            {
+                "name": "Beat",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "2",
+        "artist": "Kanako Eo",
+        "flavorText": "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+        "nationalPokedexNumbers": [
+            270
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/2.png",
+            "large": "https://images.pokemontcg.io/mcd15/2_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110422",
+        "base": [],
+        "holo": [
+            3.93,
+            4.32,
+            4.32,
+            4.47,
+            4.47,
+            4.47,
+            4.47,
+            4.59,
+            4.85,
+            5.2,
+            5.39,
+            5.39,
+            5.39,
+            5.39,
+            5.76,
+            5.76,
+            5.76,
+            5.76,
+            6.26,
+            6.26,
+            6.08,
+            7.12,
+            7.12,
+            7.12,
+            7.18,
+            7.18,
+            7.18,
+            6.58,
+            6.58,
+            6.58,
+            5.88,
+            5.88,
+            5.64,
+            5.64,
+            5.64,
+            5.64,
+            5.17,
+            5.17,
+            5.17,
+            5.17,
+            5.17,
+            5.17,
+            5.49,
+            5.49,
+            5.49,
+            5.49,
+            5.49,
+            5.87,
+            5.87,
+            5.87,
+            5.87,
+            5.87
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-3",
+        "name": "Torchic",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Fire"
+        ],
+        "evolvesTo": [
+            "Combusken"
+        ],
+        "attacks": [
+            {
+                "name": "Ember",
+                "cost": [
+                    "Fire"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": "Flip a coin. If tails, discard a Fire Energy attached to this Pok\u00e9mon."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "3",
+        "artist": "sui",
+        "flavorText": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+        "nationalPokedexNumbers": [
+            255
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/3.png",
+            "large": "https://images.pokemontcg.io/mcd15/3_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110433",
+        "base": [],
+        "holo": [
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            19.98,
+            24.95,
+            24.95,
+            24.95,
+            24.95,
+            24.95,
+            24.95,
+            18.47,
+            3.77,
+            3.5,
+            3.54,
+            3.54,
+            3.54,
+            3.54,
+            3.54,
+            3.54,
+            3.54,
+            4.74,
+            4.74,
+            7.86,
+            7.86,
+            7.86,
+            7.86,
+            7.86,
+            7.51,
+            7.51,
+            7.84,
+            7.84,
+            7.84,
+            7.84,
+            7.84,
+            7.84,
+            7.84,
+            7.84,
+            7.99,
+            7.99,
+            7.99,
+            7.99,
+            7.99
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-4",
+        "name": "Staryu",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Starmie"
+        ],
+        "attacks": [
+            {
+                "name": "Lunge",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": "Flip a coin. If tails, this attack does nothing."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "4",
+        "artist": "Tomokazu Komiya",
+        "flavorText": "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+        "nationalPokedexNumbers": [
+            120
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/4.png",
+            "large": "https://images.pokemontcg.io/mcd15/4_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110431",
+        "base": [],
+        "holo": [
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.8,
+            4.29,
+            4.15,
+            3.95,
+            3.99,
+            3.99,
+            3.99,
+            3.84,
+            3.84,
+            3.84,
+            3.67,
+            3.26,
+            3.26,
+            3.99,
+            3.99,
+            3.03,
+            2.95,
+            2.67,
+            2.67,
+            2.67,
+            2.67,
+            2.63,
+            2.54,
+            2.44,
+            2.44,
+            2.44,
+            2.5,
+            2.5,
+            2.52,
+            2.52,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85,
+            2.85
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-5",
+        "name": "Mudkip",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Marshtomp"
+        ],
+        "attacks": [
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Water"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Mud-Slap",
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "5",
+        "artist": "Aya Kusube",
+        "flavorText": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+        "nationalPokedexNumbers": [
+            258
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/5.png",
+            "large": "https://images.pokemontcg.io/mcd15/5_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110427",
+        "base": [],
+        "holo": [
+            8.36,
+            8.36,
+            8.36,
+            8.36,
+            8.36,
+            8.76,
+            8.76,
+            8.76,
+            8.76,
+            8.76,
+            8.61,
+            8.61,
+            8.61,
+            8.61,
+            8.61,
+            8.57,
+            8.51,
+            8.51,
+            8.56,
+            8.62,
+            8.62,
+            8.62,
+            8.62,
+            8.86,
+            8.86,
+            8.86,
+            8.95,
+            8.95,
+            8.95,
+            8.95,
+            8.82,
+            8.82,
+            8.7,
+            8.7,
+            8.7,
+            8.77,
+            8.66,
+            8.66,
+            8.67,
+            8.67,
+            8.67,
+            8.89,
+            8.89,
+            8.89,
+            8.89,
+            8.89,
+            8.89,
+            9.14,
+            9.14,
+            9.17,
+            9.17,
+            9.17
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-6",
+        "name": "Pikachu",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "name": "Tail Whip",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."
+            },
+            {
+                "name": "Electro Ball",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "30",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "6",
+        "artist": "Naoki Saito",
+        "flavorText": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/6.png",
+            "large": "https://images.pokemontcg.io/mcd15/6_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110424",
+        "base": [],
+        "holo": [
+            28.82,
+            28.82,
+            28.82,
+            28.82,
+            28.82,
+            27.64,
+            27.64,
+            27.64,
+            27.64,
+            27.53,
+            27.53,
+            28.04,
+            28.12,
+            28.12,
+            28.49,
+            28.49,
+            28.49,
+            28.49,
+            26.25,
+            26.25,
+            25.38,
+            25.38,
+            25.38,
+            25.38,
+            23.64,
+            24.22,
+            24.22,
+            24.22,
+            23.86,
+            23.86,
+            23.07,
+            22.63,
+            23.13,
+            23.13,
+            23.13,
+            23.13,
+            23.13,
+            22.33,
+            22.33,
+            21.22,
+            20.98,
+            20.98,
+            21.57,
+            21.57,
+            21.57,
+            21.57,
+            21.57,
+            21.57,
+            21.57,
+            21.74,
+            21.74,
+            21.74
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-7",
+        "name": "Electrike",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Manectric"
+        ],
+        "attacks": [
+            {
+                "name": "Charge",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "Search your deck for a Lightning Energy card and attach it to this Pok\u00e9mon. Shuffle your deck afterward."
+            },
+            {
+                "name": "Bite",
+                "cost": [
+                    "Lightning",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "7",
+        "artist": "Sumiyoshi Kizuki",
+        "flavorText": "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+        "nationalPokedexNumbers": [
+            309
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/7.png",
+            "large": "https://images.pokemontcg.io/mcd15/7_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110428",
+        "base": [],
+        "holo": [
+            4.86,
+            4.89,
+            4.89,
+            4.89,
+            4.91,
+            4.91,
+            4.91,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.94,
+            4.97,
+            5.13,
+            5.34,
+            5.34,
+            4.1,
+            3.8,
+            1.61,
+            1.61,
+            1.55,
+            1.55,
+            1.58,
+            1.56,
+            2.13,
+            2.13,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.35,
+            2.35,
+            2.35,
+            2.35
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-8",
+        "name": "Rhyhorn",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "80",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Rhydon"
+        ],
+        "attacks": [
+            {
+                "name": "Take Down",
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "40",
+                "text": "This Pok\u00e9mon does 10 damage to itself."
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 3,
+        "number": "8",
+        "artist": "Midori Harada",
+        "rarity": "Common",
+        "flavorText": "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+        "nationalPokedexNumbers": [
+            111
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/8.png",
+            "large": "https://images.pokemontcg.io/mcd15/8_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110426",
+        "base": [],
+        "holo": [
+            2.97,
+            3.14,
+            3.26,
+            3.26,
+            3.26,
+            3.26,
+            3.26,
+            3.28,
+            3.28,
+            3.28,
+            3.28,
+            3.28,
+            3.28,
+            3.28,
+            3.28,
+            3.29,
+            3.29,
+            3.29,
+            3.3,
+            3.41,
+            3.41,
+            3.41,
+            3.41,
+            3.41,
+            3.41,
+            3.55,
+            3.55,
+            3.55,
+            3.29,
+            3.29,
+            3.29,
+            3.29,
+            3.28,
+            3.25,
+            3.25,
+            3.25,
+            3.25,
+            3.25,
+            3.1,
+            3.15,
+            3.15,
+            3.15,
+            3.17,
+            3.17,
+            3.17,
+            3.17,
+            3.17,
+            3.17,
+            3.17,
+            3.17,
+            3.14,
+            3.14
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-9",
+        "name": "Meditite",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Medicham"
+        ],
+        "attacks": [
+            {
+                "name": "Smack",
+                "cost": [
+                    "Fighting"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "9",
+        "artist": "sui",
+        "flavorText": "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+        "nationalPokedexNumbers": [
+            307
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/9.png",
+            "large": "https://images.pokemontcg.io/mcd15/9_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110425",
+        "base": [],
+        "holo": [
+            3.25,
+            3.12,
+            3.33,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.05,
+            3.02,
+            3.02,
+            3.02,
+            3.02,
+            3.02,
+            3.02,
+            2.5,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            1.56,
+            1.47,
+            1.47,
+            1.47,
+            1.47,
+            1.47,
+            2.7,
+            2.7,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36,
+            2.36
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-10",
+        "name": "Marill",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "70",
+        "types": [
+            "Fairy"
+        ],
+        "evolvesTo": [
+            "Azumarill"
+        ],
+        "attacks": [
+            {
+                "name": "Tackle",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "10",
+                "text": ""
+            },
+            {
+                "name": "Rollout",
+                "cost": [
+                    "Fairy",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Darkness",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "10",
+        "artist": "Shigenori Negishi",
+        "flavorText": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+        "nationalPokedexNumbers": [
+            183
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/10.png",
+            "large": "https://images.pokemontcg.io/mcd15/10_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110430",
+        "base": [],
+        "holo": [
+            4.09,
+            4.11,
+            4.1,
+            4.1,
+            4.1,
+            4.1,
+            4.12,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.11,
+            4.18,
+            4.18,
+            4.18,
+            4.18,
+            4.25,
+            4.25,
+            4.25,
+            4.25,
+            4.41,
+            4.41,
+            4.41,
+            3.97,
+            4.28,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.7,
+            4.84,
+            4.84,
+            5.55,
+            5.55,
+            5.55,
+            5.55,
+            5.55
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-11",
+        "name": "Zigzagoon",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Linoone"
+        ],
+        "attacks": [
+            {
+                "name": "Sand Attack",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "If the Defending Pok\u00e9mon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+            },
+            {
+                "name": "Headbutt",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "11",
+        "artist": "Sumiyoshi Kizuki",
+        "flavorText": "A Pok\u00e9mon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+        "nationalPokedexNumbers": [
+            263
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/11.png",
+            "large": "https://images.pokemontcg.io/mcd15/11_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110423",
+        "base": [],
+        "holo": [
+            2.95,
+            3.08,
+            3.08,
+            3.08,
+            3.12,
+            3.16,
+            3.16,
+            3.15,
+            3.15,
+            3.15,
+            3.22,
+            3.22,
+            3.22,
+            3.22,
+            3.22,
+            3.22,
+            3.34,
+            3.34,
+            3.46,
+            3.46,
+            3.46,
+            3.46,
+            3.46,
+            3.46,
+            3.46,
+            3.72,
+            3.4,
+            3.1,
+            3.28,
+            3.28,
+            3.84,
+            3.84,
+            3.88,
+            3.7,
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.46,
+            3.46,
+            3.46,
+            3.49,
+            3.48,
+            3.48,
+            3.48,
+            3.48,
+            3.48,
+            3.48,
+            3.48,
+            3.48,
+            3.49,
+            3.49
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd15-12",
+        "name": "Skitty",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Delcatty"
+        ],
+        "attacks": [
+            {
+                "name": "Charm",
+                "cost": [
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 1,
+                "damage": "",
+                "text": "During your opponent's next turn, any damage done by attacks from the Defending Pok\u00e9mon is reduced by 20 (before applying Weakness and Resistance)."
+            },
+            {
+                "name": "Tail Smack",
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "convertedEnergyCost": 2,
+                "damage": "20",
+                "text": ""
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "12",
+        "artist": "Yuka Morii",
+        "flavorText": "It shows its cute side by chasing its own tail until it gets dizzy.",
+        "nationalPokedexNumbers": [
+            300
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd15/12.png",
+            "large": "https://images.pokemontcg.io/mcd15/12_hires.png"
+        },
+        "set": "McDonald's Promos 2015",
+        "tcg": "110432",
+        "base": [],
+        "holo": [
+            6.39,
+            6.39,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.65,
+            6.73,
+            6.73,
+            6.73,
+            6.73,
+            6.95,
+            6.88,
+            7.6,
+            7.6,
+            7.6,
+            7.6,
+            8.05,
+            7.91,
+            6.88,
+            5.88,
+            5.88,
+            5.88,
+            5.62,
+            5.62,
+            4.82,
+            4.82,
+            3.54,
+            3.54,
+            3.43,
+            3.43,
+            4.35,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.26,
+            4.13,
+            4.13,
+            4.13,
+            4.13,
+            4.16,
+            4.16,
+            4.16,
+            4.16,
+            4.16
+        ],
+        "reverse": []
+    }
+]

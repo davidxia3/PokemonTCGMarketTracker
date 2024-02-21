@@ -1,1 +1,1353 @@
-[]
+[
+    {
+        "id": "mcd19-1",
+        "name": "Caterpie",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Grass"
+        ],
+        "evolvesTo": [
+            "Metapod"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Grass"
+                ],
+                "name": "Surprise Attack",
+                "text": "Flip a coin. If tails, this attack does nothing.",
+                "damage": "20",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "1",
+        "artist": "Sekio",
+        "flavorText": "When attacked by bird Pok\u00e9mon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+        "nationalPokedexNumbers": [
+            10
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/1.png",
+            "large": "https://images.pokemontcg.io/mcd19/1_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200960",
+        "base": [],
+        "holo": [
+            7.23,
+            7.02,
+            6.73,
+            6.46,
+            6.46,
+            6.46,
+            6.46,
+            6.46,
+            5.75,
+            5.81,
+            5.81,
+            5.81,
+            5.38,
+            5.38,
+            5.45,
+            5.45,
+            5.45,
+            5.45,
+            5.45,
+            5.45,
+            5.39,
+            5.35,
+            5.35,
+            4.92,
+            5.04,
+            5.06,
+            4.93,
+            5.21,
+            5.21,
+            5.21,
+            5.59,
+            5.54,
+            5.54,
+            5.54,
+            5.84,
+            5.79,
+            5.79,
+            5.79,
+            5.91,
+            5.9,
+            5.9,
+            5.9,
+            5.9,
+            5.9,
+            5.9,
+            5.95,
+            5.95,
+            5.95,
+            5.95,
+            5.95,
+            5.95,
+            5.95
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-2",
+        "name": "Alolan Exeggutor",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "160",
+        "types": [
+            "Grass"
+        ],
+        "evolvesFrom": "Exeggcute",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass"
+                ],
+                "name": "Tropical Shake",
+                "text": "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can't add more than 100 damage in this way.",
+                "damage": "20+",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 3,
+        "number": "2",
+        "artist": "Satoshi Shirai",
+        "flavorText": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+        "nationalPokedexNumbers": [
+            103
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/2.png",
+            "large": "https://images.pokemontcg.io/mcd19/2_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200961",
+        "base": [],
+        "holo": [
+            2.48,
+            3.39,
+            3.67,
+            3.67,
+            3.67,
+            3.67,
+            3.67,
+            3.67,
+            3.74,
+            3.74,
+            3.74,
+            3.74,
+            3.99,
+            3.99,
+            4.37,
+            4.37,
+            4.37,
+            4.37,
+            4.37,
+            5.0,
+            4.59,
+            4.31,
+            4.01,
+            4.01,
+            4.32,
+            4.33,
+            4.29,
+            3.77,
+            3.77,
+            3.77,
+            3.77,
+            3.77,
+            3.77,
+            3.77,
+            3.73,
+            3.73,
+            3.73,
+            3.73,
+            3.65,
+            3.62,
+            3.62,
+            3.61,
+            3.56,
+            3.56,
+            3.56,
+            3.58,
+            3.58,
+            3.61,
+            3.71,
+            3.71,
+            3.64,
+            3.64
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-3",
+        "name": "Magmar",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "80",
+        "types": [
+            "Fire"
+        ],
+        "evolvesTo": [
+            "Magmortar"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Fire"
+                ],
+                "name": "Controlled Burn",
+                "text": "Discard the top card of your opponent's deck.",
+                "damage": "",
+                "convertedEnergyCost": 1
+            },
+            {
+                "cost": [
+                    "Fire",
+                    "Fire",
+                    "Colorless"
+                ],
+                "name": "Flamethrower",
+                "text": "Discard an Energy from this Pok\u00e9mon.",
+                "damage": "80",
+                "convertedEnergyCost": 3
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Water",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "3",
+        "artist": "Yumi",
+        "flavorText": "When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.",
+        "nationalPokedexNumbers": [
+            126
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/3.png",
+            "large": "https://images.pokemontcg.io/mcd19/3_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200963",
+        "base": [],
+        "holo": [
+            4.96,
+            4.92,
+            4.63,
+            4.63,
+            4.63,
+            4.63,
+            4.63,
+            4.63,
+            4.63,
+            3.37,
+            3.85,
+            3.85,
+            3.42,
+            3.42,
+            3.42,
+            3.36,
+            3.36,
+            3.36,
+            3.36,
+            3.36,
+            3.3,
+            3.3,
+            3.3,
+            3.11,
+            2.92,
+            3.1,
+            3.1,
+            3.1,
+            3.1,
+            2.97,
+            2.98,
+            2.98,
+            2.86,
+            2.86,
+            2.86,
+            3.12,
+            3.09,
+            3.09,
+            3.04,
+            3.04,
+            3.04,
+            3.0,
+            2.98,
+            2.98,
+            2.98,
+            2.98,
+            2.98,
+            2.98,
+            2.98,
+            3.1,
+            3.03,
+            3.03
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-4",
+        "name": "Alolan Sandshrew",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Water"
+        ],
+        "evolvesTo": [
+            "Sandslash"
+        ],
+        "attacks": [
+            {
+                "cost": [],
+                "name": "Fury Swipes",
+                "text": "Flip 3 coins. This attack does 10 damage for each heads.",
+                "damage": "10",
+                "convertedEnergyCost": 0
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Metal",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "4",
+        "artist": "Shin Nagasawa",
+        "flavorText": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+        "nationalPokedexNumbers": [
+            27
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/4.png",
+            "large": "https://images.pokemontcg.io/mcd19/4_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200964",
+        "base": [],
+        "holo": [
+            8.71,
+            9.14,
+            9.1,
+            9.1,
+            9.1,
+            10.36,
+            10.36,
+            10.36,
+            9.41,
+            9.41,
+            9.41,
+            9.41,
+            9.4,
+            9.4,
+            9.4,
+            9.4,
+            9.4,
+            9.4,
+            9.4,
+            7.5,
+            5.86,
+            5.86,
+            5.86,
+            5.86,
+            5.86,
+            6.18,
+            6.18,
+            6.18,
+            6.18,
+            6.18,
+            6.1,
+            6.09,
+            6.0,
+            6.0,
+            5.63,
+            5.63,
+            5.63,
+            5.63,
+            5.6,
+            5.6,
+            5.6,
+            5.6,
+            5.44,
+            5.44,
+            5.44,
+            5.68,
+            5.68,
+            5.68,
+            5.68,
+            5.12,
+            4.32,
+            4.32
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-5",
+        "name": "Lapras",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "120",
+        "types": [
+            "Water"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Aqua Bullet",
+                "text": "This attack does 20 damage to 1 of your opponent's Benched Pok\u00e9mon. (Don't apply Weakness and Resistance for Benched Pok\u00e9mon.)",
+                "damage": "20",
+                "convertedEnergyCost": 1
+            },
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Hydro Pump",
+                "text": "This attack does 10 more damage times the amount of Water Energy attached to this Pok\u00e9mon.",
+                "damage": "70+",
+                "convertedEnergyCost": 3
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "5",
+        "artist": "Saya Tsuruta",
+        "flavorText": "These Pok\u00e9mon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+        "nationalPokedexNumbers": [
+            131
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/5.png",
+            "large": "https://images.pokemontcg.io/mcd19/5_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200966",
+        "base": [],
+        "holo": [
+            17.62,
+            17.44,
+            17.79,
+            17.79,
+            16.81,
+            16.81,
+            16.86,
+            17.08,
+            15.94,
+            13.75,
+            15.94,
+            15.94,
+            14.83,
+            14.83,
+            13.59,
+            13.59,
+            13.2,
+            12.53,
+            12.53,
+            12.53,
+            12.19,
+            12.19,
+            11.05,
+            11.05,
+            11.05,
+            10.88,
+            10.88,
+            10.12,
+            10.12,
+            10.12,
+            10.02,
+            10.02,
+            10.05,
+            10.05,
+            10.17,
+            10.17,
+            10.17,
+            10.17,
+            10.04,
+            10.04,
+            10.15,
+            10.15,
+            10.04,
+            10.04,
+            9.92,
+            9.91,
+            10.03,
+            9.83,
+            9.74,
+            9.74,
+            9.74,
+            9.91
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-6",
+        "name": "Pikachu",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Lightning"
+        ],
+        "evolvesTo": [
+            "Raichu"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Lightning"
+                ],
+                "name": "Iron Tail",
+                "text": "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+                "damage": "20",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Metal",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "6",
+        "artist": "Kagemaru Himeno",
+        "flavorText": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+        "nationalPokedexNumbers": [
+            25
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/6.png",
+            "large": "https://images.pokemontcg.io/mcd19/6_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200967",
+        "base": [],
+        "holo": [
+            17.98,
+            18.14,
+            17.77,
+            17.77,
+            17.77,
+            17.77,
+            17.77,
+            17.77,
+            17.77,
+            16.87,
+            16.63,
+            17.44,
+            17.51,
+            17.51,
+            17.51,
+            17.51,
+            17.51,
+            17.51,
+            17.09,
+            16.52,
+            16.52,
+            15.34,
+            15.34,
+            15.34,
+            15.41,
+            15.71,
+            15.74,
+            15.94,
+            15.94,
+            16.16,
+            16.01,
+            16.01,
+            16.01,
+            16.01,
+            16.01,
+            16.42,
+            16.43,
+            16.52,
+            16.52,
+            16.52,
+            16.52,
+            16.38,
+            16.46,
+            16.46,
+            16.6,
+            16.6,
+            16.66,
+            16.66,
+            16.66,
+            16.66,
+            16.66,
+            16.66
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-7",
+        "name": "Gastly",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "50",
+        "types": [
+            "Psychic"
+        ],
+        "evolvesTo": [
+            "Haunter"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Psychic"
+                ],
+                "name": "Ominous Eyes",
+                "text": "Put 1 damage counter on 1 of your opponent's Pok\u00e9mon.",
+                "damage": "",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Darkness",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Fighting",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "7",
+        "artist": "Shibuzoh.",
+        "flavorText": "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there.",
+        "nationalPokedexNumbers": [
+            92
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/7.png",
+            "large": "https://images.pokemontcg.io/mcd19/7_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200969",
+        "base": [],
+        "holo": [
+            8.94,
+            8.88,
+            9.01,
+            9.01,
+            9.01,
+            9.01,
+            9.01,
+            9.01,
+            8.88,
+            8.88,
+            9.18,
+            9.18,
+            8.6,
+            8.6,
+            8.7,
+            9.02,
+            9.02,
+            9.02,
+            9.02,
+            9.02,
+            8.7,
+            8.56,
+            8.56,
+            8.56,
+            8.56,
+            8.67,
+            8.67,
+            8.66,
+            8.66,
+            8.66,
+            8.45,
+            8.46,
+            8.51,
+            8.65,
+            8.66,
+            8.66,
+            8.66,
+            8.66,
+            8.69,
+            8.69,
+            8.53,
+            8.53,
+            8.58,
+            8.58,
+            8.58,
+            8.6,
+            8.92,
+            9.08,
+            9.08,
+            9.08,
+            9.08,
+            9.08
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-8",
+        "name": "Mankey",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Primeape"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Fighting"
+                ],
+                "name": "Three-Step Strike",
+                "text": "Flip 3 coins. This attack does 10 damage for each heads.",
+                "damage": "10",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Psychic",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "8",
+        "artist": "Miki Tanaka",
+        "flavorText": "It can spontaneously become enraged. Everyone near it clears out as it rampages, and the resulting loneliness makes it angrier still.",
+        "nationalPokedexNumbers": [
+            56
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/8.png",
+            "large": "https://images.pokemontcg.io/mcd19/8_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200971",
+        "base": [],
+        "holo": [
+            6.31,
+            6.08,
+            5.94,
+            5.94,
+            6.08,
+            5.41,
+            5.41,
+            5.41,
+            5.48,
+            5.48,
+            5.48,
+            5.54,
+            5.35,
+            5.35,
+            5.35,
+            5.35,
+            5.35,
+            5.35,
+            5.47,
+            5.47,
+            5.46,
+            5.26,
+            5.26,
+            5.26,
+            4.98,
+            5.13,
+            5.13,
+            5.14,
+            5.14,
+            5.16,
+            5.09,
+            5.04,
+            5.05,
+            5.24,
+            5.22,
+            5.22,
+            5.22,
+            5.15,
+            5.12,
+            5.12,
+            5.12,
+            5.12,
+            5.1,
+            5.1,
+            5.1,
+            5.07,
+            5.07,
+            5.11,
+            5.11,
+            5.11,
+            5.21,
+            5.21
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-9",
+        "name": "Onix",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "100",
+        "types": [
+            "Fighting"
+        ],
+        "evolvesTo": [
+            "Steelix"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Screech",
+                "text": "During your next turn, the Defending Pok\u00e9mon takes 20 more damage from attacks (after applying Weakness and Resistance).",
+                "damage": "",
+                "convertedEnergyCost": 1
+            },
+            {
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "name": "Rage",
+                "text": "This attack does 10 more damage for each damage counter on this Pok\u00e9mon.",
+                "damage": "10+",
+                "convertedEnergyCost": 2
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Grass",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless",
+            "Colorless"
+        ],
+        "convertedRetreatCost": 2,
+        "number": "9",
+        "artist": "Mitsuhiro Arita",
+        "flavorText": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+        "nationalPokedexNumbers": [
+            95
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/9.png",
+            "large": "https://images.pokemontcg.io/mcd19/9_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200973",
+        "base": [],
+        "holo": [
+            4.76,
+            4.98,
+            4.98,
+            4.98,
+            4.98,
+            4.98,
+            4.98,
+            4.98,
+            4.99,
+            4.99,
+            4.11,
+            4.11,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.02,
+            4.02,
+            4.02,
+            4.02,
+            4.19,
+            4.19,
+            3.84,
+            3.98,
+            3.98,
+            4.2,
+            4.2,
+            4.2,
+            4.09,
+            4.09,
+            4.09,
+            4.67,
+            4.67,
+            4.68,
+            4.68,
+            4.68,
+            4.68,
+            4.69,
+            4.69,
+            4.69,
+            4.79,
+            4.79,
+            4.91,
+            4.91,
+            4.91,
+            4.91,
+            4.91
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-10",
+        "name": "Alolan Meowth",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Darkness"
+        ],
+        "evolvesTo": [
+            "Persian"
+        ],
+        "attacks": [
+            {
+                "cost": [],
+                "name": "Spoil the Fun",
+                "text": "If you go second, this attack does 60 more damage during your first turn.",
+                "damage": "10+",
+                "convertedEnergyCost": 0
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Psychic",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "10",
+        "artist": "Akira Komayama",
+        "flavorText": "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.",
+        "nationalPokedexNumbers": [
+            52
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/10.png",
+            "large": "https://images.pokemontcg.io/mcd19/10_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200975",
+        "base": [],
+        "holo": [
+            7.52,
+            7.83,
+            7.83,
+            7.06,
+            7.06,
+            7.06,
+            7.06,
+            7.06,
+            7.1,
+            7.1,
+            7.08,
+            7.65,
+            7.12,
+            7.12,
+            7.12,
+            7.12,
+            6.7,
+            6.42,
+            6.3,
+            6.16,
+            5.95,
+            5.85,
+            5.85,
+            5.85,
+            5.81,
+            5.87,
+            5.88,
+            5.87,
+            5.66,
+            5.85,
+            5.8,
+            5.8,
+            5.92,
+            5.92,
+            5.82,
+            5.82,
+            5.72,
+            5.72,
+            5.78,
+            5.78,
+            5.8,
+            5.8,
+            5.79,
+            6.1,
+            6.14,
+            6.22,
+            6.22,
+            6.33,
+            6.33,
+            6.33,
+            6.33,
+            6.33
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-11",
+        "name": "Alolan Dugtrio",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Stage 1"
+        ],
+        "hp": "60",
+        "types": [
+            "Metal"
+        ],
+        "evolvesFrom": "Alolan Diglett",
+        "attacks": [
+            {
+                "cost": [],
+                "name": "Gold Rush",
+                "text": "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way.",
+                "damage": "30",
+                "convertedEnergyCost": 0
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fire",
+                "value": "\u00d72"
+            }
+        ],
+        "resistances": [
+            {
+                "type": "Psychic",
+                "value": "-20"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "11",
+        "artist": "Megumi Mizutani",
+        "flavorText": "This Pok\u00e9mon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+        "nationalPokedexNumbers": [
+            51
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/11.png",
+            "large": "https://images.pokemontcg.io/mcd19/11_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200976",
+        "base": [],
+        "holo": [
+            4.41,
+            4.03,
+            3.6,
+            3.58,
+            3.51,
+            3.51,
+            3.51,
+            3.51,
+            3.51,
+            3.43,
+            3.43,
+            3.43,
+            3.5,
+            3.5,
+            3.5,
+            3.25,
+            3.5,
+            3.5,
+            3.5,
+            3.48,
+            3.49,
+            3.49,
+            3.49,
+            3.49,
+            3.49,
+            3.45,
+            3.45,
+            3.45,
+            3.38,
+            3.35,
+            3.38,
+            3.38,
+            3.38,
+            3.76,
+            3.68,
+            3.94,
+            3.94,
+            3.94,
+            3.81,
+            3.81,
+            3.81,
+            3.75,
+            3.72,
+            3.72,
+            3.75,
+            3.77,
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.75,
+            3.75
+        ],
+        "reverse": []
+    },
+    {
+        "id": "mcd19-12",
+        "name": "Eevee",
+        "supertype": "Pok\u00e9mon",
+        "subtypes": [
+            "Basic"
+        ],
+        "hp": "60",
+        "types": [
+            "Colorless"
+        ],
+        "evolvesTo": [
+            "Vaporeon",
+            "Jolteon",
+            "Flareon",
+            "Sylveon",
+            "Espeon",
+            "Umbreon",
+            "Leafeon",
+            "Glaceon"
+        ],
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Gnaw",
+                "text": "",
+                "damage": "20",
+                "convertedEnergyCost": 1
+            }
+        ],
+        "weaknesses": [
+            {
+                "type": "Fighting",
+                "value": "\u00d72"
+            }
+        ],
+        "retreatCost": [
+            "Colorless"
+        ],
+        "convertedRetreatCost": 1,
+        "number": "12",
+        "artist": "Atsuko Nishida",
+        "flavorText": "Current studies show it can evolve into an incredible eight different species of Pok\u00e9mon.",
+        "nationalPokedexNumbers": [
+            133
+        ],
+        "legalities": {
+            "unlimited": "Legal",
+            "expanded": "Legal"
+        },
+        "images": {
+            "small": "https://images.pokemontcg.io/mcd19/12.png",
+            "large": "https://images.pokemontcg.io/mcd19/12_hires.png"
+        },
+        "set": "McDonald's Promos 2019",
+        "tcg": "200977",
+        "base": [],
+        "holo": [
+            16.1,
+            16.1,
+            16.15,
+            16.15,
+            15.66,
+            15.66,
+            15.66,
+            15.48,
+            15.38,
+            15.52,
+            15.42,
+            15.42,
+            14.33,
+            14.33,
+            14.33,
+            14.33,
+            14.33,
+            14.33,
+            14.33,
+            15.12,
+            15.4,
+            15.4,
+            15.4,
+            15.4,
+            15.4,
+            15.4,
+            15.4,
+            15.4,
+            16.2,
+            16.2,
+            16.09,
+            16.09,
+            16.61,
+            16.61,
+            16.61,
+            16.61,
+            16.61,
+            16.61,
+            16.53,
+            16.53,
+            16.53,
+            16.53,
+            16.64,
+            16.64,
+            16.84,
+            16.79,
+            16.79,
+            16.79,
+            16.79,
+            16.79,
+            16.79,
+            16.79
+        ],
+        "reverse": []
+    }
+]
